@@ -32,7 +32,6 @@ function App() {
       <div className="flex flex-col items-center">
         <Header navbarOpen={navbarOpen} setNavbarOpen={setNavbarOpen} />
         <Hamburger setCategory={setCategory} navbarOpen={navbarOpen} setNavbarOpen={setNavbarOpen} />
-        {/* <Header /> */}
         <DownloadMessage />
         <NewsContent 
           setLoadMore={setLoadMore}
